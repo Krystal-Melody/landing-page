@@ -1,0 +1,184 @@
+/*font-family: 'Bai Jamjuree', sans-serif;  
+font-weight: 400;
+font-weight: 600;
+*/
+
+body {
+    margin: 0;
+    font-family: 'Bai Jamjuree', sans-serif; 
+    text-align: center;
+    background-color: #ffffff;
+    
+}
+
+img {
+    max-width: 100%;
+}
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3 {
+    color:hsl(210, 10%, 33%)
+}
+
+p,
+li {
+    color: hsl(201, 11%, 66%);
+    line-height: 1.5rem;
+}
+
+h1 {
+    font-size: 1.8rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+p {
+    font-size: .9rem;
+}
+
+.cta,
+.feature-1,
+feature-2,
+logo-list {
+    margin-bottom: 9em;
+}
+
+.container {
+    width: 78%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/* ------ CTA sections (top and bottom of page) ------ */
+
+.cta .header-mobile {
+    background-image: url(images/bg-header-mobile.png);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+    padding: 9em 0 2em 0;
+}
+
+.cta .logo {
+    margin: 0 auto;
+    margin-bottom: 4em;
+}
+
+.cta .btn {
+    color: #fff;
+    font-size: 1rem;
+    padding: 1em 2.8em;
+    max-width: 300px;
+    border-radius: 30px;
+    width: 100%;
+}
+
+.cta .flex-button {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    margin-top: 3em;
+}
+
+.cta .green {
+    background-color: hsl(171, 66%, 44%);
+    border: solid #1E9D89;
+    border-width: 0 1px 2px 1px;
+} 
+
+.cta .purple {
+    background-color: hsl(233, 100%, 69%);
+    border: solid #5564DE;
+    border-width: 0 1px 2px 1px;
+}
+
+
+/* ----- Section 1 ------ */
+
+.feature-1__flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.feature-1 .image-computer {
+    margin: 3em 0 2em 0;
+}
+
+.feature-1__flex--text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+/* ----- Section 2 ------ */
+
+.feature-2 .image-devices {
+    margin: 3em 0 4em 0;
+}
+
+.feature-2__flex {
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+
+/* ----- Logo List ------ */
+
+.logo-list__flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4.4em;
+    margin: 9em auto;
+}
+
+.logo-list__flex > * {
+    width: 7.5em;
+}
+
+
+/* ----- Footer ------ */
+
+
+.footer__desktop {
+    display: none;
+}
+
+.footer__mobile {
+    background-color:#F5F6F8;
+    color: hsl(210, 10%, 33%);
+    padding: 3em 0;
+} 
+
+.footer-logo {
+    width: 3.5em;
+}
+
+
+ul {
+    padding: 0;
+    margin: 40px 0;
+}
+
+li {
+    list-style: none;
+    margin-bottom: 1em;
+}
+
+
+.footer__social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
