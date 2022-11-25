@@ -58,7 +58,7 @@ logo-list {
 
 /* ------ CTA sections (top and bottom of page) ------ */
 
-.cta .header-mobile {
+.cta .header {
     background-image: url(images/bg-header-mobile.png);
     background-repeat: no-repeat;
     background-position: center bottom;
@@ -219,7 +219,7 @@ li {
         margin: 0 auto;
     }
 
-    .cta .header-mobile {
+    .cta .header {
         background-image: url(images/bg-header-desktop.png);
     }
 
